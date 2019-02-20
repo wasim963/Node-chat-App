@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+Hi this is a chat app!<br>
+
+<div id="login-div">
+    <h2>Please login first</h2>
+    <input type="text" id="userName" placeholder="username">
+    <button id="sbmtBtn">Submit</button>
+
+</div>
+
+<div id="chat-div" style="display: none">
+    <h2>Your Chat Messages</h2>
+    <input type="text" id="msgBox" placeholder="type a message">
+    <button id="send">Send</button>
+    <ul id="messageList">
+    </ul>
+
+</div>
+
+
+</body>
+</html>
