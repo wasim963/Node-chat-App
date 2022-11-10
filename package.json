@@ -12,6 +12,6 @@
     "express": "^4.16.4",
     "mysql2": "^1.6.1",
     "sequelize": "^4.39.0",
-    "socket.io": "^2.1.1"
+    "socket.io": "^2.5.0"
   }
 }
